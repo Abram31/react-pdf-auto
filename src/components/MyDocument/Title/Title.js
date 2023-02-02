@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { Text } from '@react-pdf/renderer'
 
 import { styles } from './Title.style'
 
-export const Title = () => {
+export const Title = ({size, children}) => {
   return (
-      <Text style={styles.title}>Condizioni di noleggio</Text>
+    <Text style={size === 'md' ? styles.md : styles.sm }>{children}</Text>
   )
 }

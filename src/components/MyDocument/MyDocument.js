@@ -3,6 +3,7 @@ import { Page, Text, View, Document } from '@react-pdf/renderer';
 import { Header } from './Header/Header';
 
 import { ClientInformation} from './ClientInformation/ClientInformation';
+import { Row } from './Row/Row';
 
 export const MyDocument = () => (
     <Document>

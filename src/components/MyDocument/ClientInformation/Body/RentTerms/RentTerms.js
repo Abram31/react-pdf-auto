@@ -8,7 +8,7 @@ import { styles } from './RentTerms.style'
 export const RentTerms = () => {
   return (
     <View style={styles.wrapper}>
-      <Title />
+      <Title size={'md'}>Condizioni di noleggio</Title>
       <View style={styles.container}>
         <View style={styles.aboutCar}>
           {firstBlock.map((data, index) => {

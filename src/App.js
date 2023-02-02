@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import module from './App.module.css';
 import { MyDocument } from './components/MyDocument/MyDocument.js';
 import { PDFViewer } from '@react-pdf/renderer';
-// import "@fontsource/dm-serif-display"
-// import { MyDocument } from './components/MyDocument';
 
 function App() {
   return (

@@ -6,6 +6,4 @@ export const firstBlock = [
     { name: 'Data e ora Ritiro', value: 'lorem lorem' },
     { name: 'Data e ora Riconsegna', value: 'lorem lorem' },
     { name: 'Luogo riconsegna', value: 'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem' },
-
-
 ]
