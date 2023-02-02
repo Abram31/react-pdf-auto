@@ -1,6 +1,9 @@
-import { StyleSheet, Font } from '@react-pdf/renderer'
+import { StyleSheet } from '@react-pdf/renderer'
 
 
 export const styles = StyleSheet.create({
-    page: { padding: "20px 30px" }
+    body: {
+        padding: "20px 30px", display: 'flex',
+        flexDirection: 'column', gap: '20px'
+    }
 });
