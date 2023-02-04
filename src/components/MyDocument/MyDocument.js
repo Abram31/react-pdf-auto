@@ -5,11 +5,13 @@ import { Header } from './Header/Header';
 import { ClientInformation} from './ClientInformation/ClientInformation';
 import { Row } from './Row/Row';
 import { RentalConditions } from './RentalConditions/RentalConditions';
+import { RecordDeliveryReturn } from './RecordDeliveryReturn/RecordDeliveryReturn';
 
 export const MyDocument = () => (
     <Document>
         <ClientInformation />
         <RentalConditions />
+        <RecordDeliveryReturn/>
         {/* <Page size="A4" >
             <Header />
             <View >

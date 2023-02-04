@@ -38,7 +38,7 @@ export const creditCardData = [
 export const deductibleChargesData = [
     {
         title: 'Mi impegno a indennizzare FLM Auto & Rent in caso di',
-        value: ['Danni: Fino all importo massimo del deposito cauzionale più il del valore commerciale del veicolo in caso di distruzione totale del veicolo','Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale piùil del valore commerciale del veicolo']
+        value: ['Danni: Fino all importo massimo del deposito cauzionale più il del valore commerciale del veicolo in caso di distruzione totale del veicolo', 'Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale piùil del valore commerciale del veicolo']
     },
     {
         title: 'Dichiaro di essere responsabile di',
@@ -169,13 +169,17 @@ aggiuntivi per il ritardo nella restituzione, il cui importo sarà detratto dal 
 - quanto dovuto in generale a titolo di risarcimento e/o indennizzo e/o rimborso in conseguenza delle responsabilità e degli obblighi assunti con la sottoscrizione del contratto.
 Il Cliente autorizza il Locatore ad addebitare sulla carta di credito indicata nel contratto (o a detrarre gli importi dal deposito cauzionale) tutti gli oneri a suo carico aventi titolo dal rapporto di noleggio, ivi inclusi quelli indicati nelle presenti condizioni generali di noleggio e quelli eventualmente necessari per il recupero di ogni genere di credito vantato dal Locatore nei confronti del cliente in relazione al rapporto di noleggio.`},
 {
-    title: 'Restituzione deposito cauzionale', value: `Il deposito cauzionale verrà restituito al cliente alla riconsegna del veicolo, fatta salva la facoltà per il Locatore di trattenere eventuali spese per il ripristino del veicolo in caso di danni, per il servizio di rifornimento del carburante e l’addebito di penali per la ritardata consegna di cui all’art. 5.`},
+    title: 'Restituzione deposito cauzionale', value: `Il deposito cauzionale verrà restituito al cliente alla riconsegna del veicolo, fatta salva la facoltà per il Locatore di trattenere eventuali spese per il ripristino del veicolo in caso di danni, per il servizio di rifornimento del carburante e l’addebito di penali per la ritardata consegna di cui all’art. 5.`
+},
 {
-    title: 'Responsabilità del Locatore', value: `E’ esclusa ogni responsabilità del Locatore per perdite e danni conseguenti a guasti sopravvenuti al veicolo, mancata o ritardata consegna. Inoltre è esclusa ogni responsabilità per danni a cose trasportate o dimenticate sul veicolo restituito.`},
+    title: 'Responsabilità del Locatore', value: `E’ esclusa ogni responsabilità del Locatore per perdite e danni conseguenti a guasti sopravvenuti al veicolo, mancata o ritardata consegna. Inoltre è esclusa ogni responsabilità per danni a cose trasportate o dimenticate sul veicolo restituito.`
+},
 {
-    title: 'Clausola risolutiva', value: `La violazione anche di una sola delle disposizioni ai precedenti articoli 1, 2, 3, 4, 5, 6 e 7 darà al Locatore la facoltà di risoluzione immediata del contratto ai sensi dell’art. 1456 del codice civile; in tal caso il deposito cauzionale verrà automaticamente trattenuto a titolo di penale e il Locatore avrà facoltà di richiedere il risarcimento di tutti i danni patiti`},
+    title: 'Clausola risolutiva', value: `La violazione anche di una sola delle disposizioni ai precedenti articoli 1, 2, 3, 4, 5, 6 e 7 darà al Locatore la facoltà di risoluzione immediata del contratto ai sensi dell’art. 1456 del codice civile; in tal caso il deposito cauzionale verrà automaticamente trattenuto a titolo di penale e il Locatore avrà facoltà di richiedere il risarcimento di tutti i danni patiti`
+},
 {
-    title: 'Foro competente', value: `Per ogni controversia derivante dall’esecuzione del presente contratto è competente in via esclusiva il Foro di Busto Arsizio.Il contratto è regolato dalle leggi Italiane`},
+    title: 'Foro competente', value: `Per ogni controversia derivante dall’esecuzione del presente contratto è competente in via esclusiva il Foro di Busto Arsizio.Il contratto è regolato dalle leggi Italiane`
+},
 {
     title: 'Varie', value: `Qualora una delle disposizioni del presente contratto sia ritenuta non valida o inefficiente, in tutto o in parte, la stessa sarà considerata come non facente parte del presente contatto, che rimarrà per le restanti disposizioni valido e applicabile. Informativa ai sensi e per gli effetti del D.Lgs. 196/2003
 La informiamo che, in relazione all’esecuzione del presente contratto, il Locatore FLM AUTO & RENT S.r.l. è tenuto ad entrare in possesso e a trattare i dati a lei relativi, qualificati come personali dal D.Lgs. 196/2003 – Codice in materia di protezione dei dati personali, modificato dal D.Lgs.101/2018 di adeguamento al GDPR. Nel dettaglio si tratta di specifiche informazioni atte 
@@ -189,3 +193,21 @@ export const dateTime = {
     date: new Date().toLocaleDateString(),
     time: new Date().toLocaleTimeString()
 }
+
+export const nameAutoData = [{
+    title: '', value: 'AUDI RS6',
+}, {
+    title: 'Color', value: 'NERO'
+}, {
+    title: 'Targa', value: 'GJ666XK'
+},
+]
+
+
+export const dateKMDeliveryData = [
+    { title: 'Km alla consegna', value: '1231321', },
+    { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
+    { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
+    { amountFoul: '45' }
+
+]
