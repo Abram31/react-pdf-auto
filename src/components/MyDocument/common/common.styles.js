@@ -7,3 +7,8 @@ export const fonts = {
 export const paddings = {
     page: '30'
 }
+
+export const gaps = {
+    body: '3',
+    rentTerms: '16'
+}

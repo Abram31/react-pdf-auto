@@ -11,11 +11,11 @@ export const CheckBox = ({ name, value, select }) => {
         <View style={styles.wrapper}>
             <Row nameRow={name} valueRow={value} />
             <View style={styles.svg}>
-                <Svg width='18' height='18' >
+                <Svg width='18' height='12' >
                     <Circle
-                        cx="8"
-                        cy="8"
-                        r="6"
+                        cx="7"
+                        cy="7"
+                        r="5"
                         fill="#f1f4ff"
                         stroke="gray"
                     />

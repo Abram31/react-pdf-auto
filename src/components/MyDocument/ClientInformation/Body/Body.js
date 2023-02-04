@@ -1,5 +1,6 @@
 import { View } from '@react-pdf/renderer'
 import React from 'react'
+import { Row } from '../../Row/Row'
 import { Billing } from './Billing/Billing'
 import { styles } from './Body.style'
 import { CardDescription } from './CardDescription/CardDescription'
@@ -18,8 +19,11 @@ export const Body = () => {
             <CustomerData />
             <Billing />
             <LicenseDetails1 />
+            <View style={styles.line}>
+                <Row />
+            </View>
             <Signatures />
-            
+
         </View>
     )
 }

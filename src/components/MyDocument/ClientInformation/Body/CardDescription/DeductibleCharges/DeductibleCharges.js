@@ -7,7 +7,9 @@ import { styles } from './DeductibleCharges.style'
 export const DeductibleCharges = () => {
     return (
         <View style={styles.wrapper}>
-            <Title size={'sm'}>Franchigia e oneri</Title>
+            <View style={styles.main_title}>
+                <Title size={'sm'}>Franchigia e oneri</Title>
+            </View>
             <Text wrap={true} style={styles.title}>{deductibleChargesData[0].title}</Text>
             {deductibleChargesData[0].value.map((text, index) => {
                 return (<View key={index} style={styles.text_wrapper}>

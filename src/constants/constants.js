@@ -38,7 +38,7 @@ export const creditCardData = [
 export const deductibleChargesData = [
     {
         title: 'Mi impegno a indennizzare FLM Auto & Rent in caso di',
-        value: ['Danni: Fino all importo massimo del deposito cauzionale più il del valore commerciale del veicolo in caso di distruzione totale del veicolo', 'Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale piùil del valore commerciale del veicolo']
+        value: ['Danni: Fino all importo massimo del deposito cauzionale più il del valore commerciale del veicolo in caso di distruzione totale del veicolo','Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale piùil del valore commerciale del veicolo']
     },
     {
         title: 'Dichiaro di essere responsabile di',
