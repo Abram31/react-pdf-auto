@@ -207,7 +207,23 @@ export const nameAutoData = [{
 export const dateKMDeliveryData = [
     { title: 'Km alla consegna', value: '1231321', },
     { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
-    { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
-    { amountFoul: '45' }
+    // { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
+    { amountFoul: '100' },
+    {note: '4564fsd45gfsg4d564d56h4f'}
 
+]
+
+export const dateKMReturnData = [
+    { title: 'Km alla consegna', value: '1231321', },
+    { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
+    { title: 'Km Extra', value: '300', },
+
+    { amountFoul: '50' },
+    {note: '4564fsd45gfsg4d564d56h4f!!!!!!'}
+
+]
+
+export const signaturesDeliveryReturnData = [
+    { name: 'Luogo:', value: '1231321' },
+    { name: 'Nominativo Cliente:', value: '1231321' },
 ]

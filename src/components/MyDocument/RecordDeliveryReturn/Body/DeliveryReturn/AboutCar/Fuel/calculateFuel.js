@@ -1,0 +1,1 @@
+export const calculateFuel = (amount) => 140 / 100 * Number(amount) - 70

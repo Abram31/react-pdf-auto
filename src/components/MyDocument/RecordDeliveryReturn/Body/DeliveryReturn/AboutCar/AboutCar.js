@@ -4,13 +4,14 @@ import { styles } from './AboutCar.styles'
 import { DateKM } from './DateKM/DateKM'
 import { Fuel } from './Fuel/Fuel'
 import { Note } from './Note/Note'
+import { dateKMDeliveryData, dateKMReturnData } from '../../../../../../constants/constants'
 
 
-export const AboutCar = () => {
+export const AboutCar = ({ dateKMData, returnFlag }) => {
     return (
         <View style={styles.wrapper}>
-            <DateKM />
-            <Fuel />
+            <DateKM dateKMData={dateKMData} returnFlag={returnFlag} />
+            <Fuel dateKMData={dateKMData} returnFlag={returnFlag}/>
             <Note />
         </View>
     )

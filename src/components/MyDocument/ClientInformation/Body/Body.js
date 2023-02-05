@@ -9,6 +9,7 @@ import { LicenseDetails1 } from './LicenseDetails1/LicenseDetails1'
 import { RentDeposit } from './RentDeposit/RentDeposit'
 import { RentTerms } from './RentTerms/RentTerms'
 import { Signatures } from './Signatures/Signatures'
+import { signaturesData } from '../../../../constants/constants'
 
 export const Body = () => {
     return (
@@ -22,7 +23,7 @@ export const Body = () => {
             <View style={styles.line}>
                 <Row />
             </View>
-            <Signatures />
+            <Signatures signaturesData={signaturesData} />
 
         </View>
     )

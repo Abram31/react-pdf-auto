@@ -1,4 +1,5 @@
 export const fonts = {
+    row: '7',
     sizeCondition: '6',
     sizeFooter: '7',
     sizeTitle: '14', 
@@ -6,7 +7,7 @@ export const fonts = {
 }
 
 export const paddings = {
-    page: '30'
+    page: '20'
 }
 
 export const gaps = {

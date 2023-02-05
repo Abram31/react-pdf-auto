@@ -4,10 +4,10 @@ import { styles } from './TitleImg.styles'
 import { Title } from '../../../../Title/Title'
 
 
-export const TitleImg = () => {
+export const TitleImg = ({ title }) => {
     return (
         <View style={styles.wrapper}>
-            <Title>VERBALE DI CONSEGNA</Title>
+            <Title size={'ms'}>{title}</Title>
             <Image src='/img/auto.png' />
 
         </View>

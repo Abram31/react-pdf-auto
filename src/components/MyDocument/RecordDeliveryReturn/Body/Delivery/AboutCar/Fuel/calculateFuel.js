@@ -1,1 +1,0 @@
-export const calculateFuel = (amount) => 140 / 100 * amount - 70

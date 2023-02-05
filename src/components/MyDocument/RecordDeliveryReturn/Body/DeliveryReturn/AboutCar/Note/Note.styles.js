@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         fontSize: '10px',
 },
     textarea: {
-        width: '48vw',
+        width: '53vw',
         height: '150',
         border: '1px solid #c6c6c6',
 
