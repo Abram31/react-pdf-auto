@@ -208,7 +208,7 @@ export const nameAutoData = [{
 export const dateKMDeliveryData = [
     { title: 'Km alla consegna', value: '1231321', },
     { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
-    { amountFoul: '100' },
+    { amountFoul: '30' },
     { note: 'Tempor dolore exercitation voluptate ut reprehenderit deserunt amet mollit proident aliqua elit labore.' }
 
 ]
