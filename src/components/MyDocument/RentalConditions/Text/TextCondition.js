@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import React from 'react'
+import { Text, View } from '@react-pdf/renderer'
 import { styles } from './TextCondition.styles'
 import { conditionsData } from '../../../../constants/constants'
 

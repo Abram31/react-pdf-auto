@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { Text, View } from '@react-pdf/renderer'
 import { styles } from './Acceptance.styles'
-import { clientInformationFooter, dateTime, rentalConditionsTitle } from '../../../../constants/constants'
+import { dateTime } from '../../../../constants/constants'
 import { Row } from '../../Row/Row'
 
 

@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import { Text } from '@react-pdf/renderer'
 
 import { styles } from './Title.style'

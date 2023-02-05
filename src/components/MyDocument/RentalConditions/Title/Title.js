@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { Text, View } from '@react-pdf/renderer'
 import { styles } from './Title.style'
-import { clientInformationFooter, rentalConditionsTitle } from '../../../../constants/constants'
+import { rentalConditionsTitle } from '../../../../constants/constants'
 
 
 export const Title = () => {

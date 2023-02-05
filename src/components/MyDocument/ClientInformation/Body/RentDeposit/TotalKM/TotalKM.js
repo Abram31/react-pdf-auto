@@ -1,4 +1,4 @@
-import { Circle, Svg, View } from '@react-pdf/renderer'
+import { View } from '@react-pdf/renderer'
 import React from 'react'
 import { totalKMData } from '../../../../../../constants/constants'
 import { Row } from '../../../../Row/Row'

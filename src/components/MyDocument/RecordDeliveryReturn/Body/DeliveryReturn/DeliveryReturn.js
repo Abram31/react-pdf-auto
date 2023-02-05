@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { View } from '@react-pdf/renderer'
 import { styles } from './DeliveryReturn.styles'
 import { TitleImg } from './TitleImg/TitleImg'
 import { AboutCar } from './AboutCar/AboutCar'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { Text, View } from '@react-pdf/renderer'
 import { styles } from './NameAuto.styles'
 import { nameAutoData } from '../../../../constants/constants'
 

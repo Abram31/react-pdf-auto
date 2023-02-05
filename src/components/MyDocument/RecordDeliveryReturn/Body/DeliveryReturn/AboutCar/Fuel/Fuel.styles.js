@@ -1,7 +1,5 @@
 import { StyleSheet } from '@react-pdf/renderer'
-import { dateKMDeliveryData } from '../../../../../../../constants/constants';
 import { fonts } from '../../../../../common/common.styles';
-import { calculateFuel } from './calculateFuel';
 
 export const styles = StyleSheet.create({
         

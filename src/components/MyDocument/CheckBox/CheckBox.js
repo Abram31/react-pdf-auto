@@ -1,4 +1,4 @@
-import { Canvas, Circle, Path, StyleSheet, Svg, View } from '@react-pdf/renderer'
+import { Circle, Svg, View } from '@react-pdf/renderer'
 import React from 'react'
 import { Row } from '../Row/Row'
 import { styles } from './CheckBox.module'
