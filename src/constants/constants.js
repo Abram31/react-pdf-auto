@@ -24,7 +24,7 @@ export const agreedPriceData = [
 
 export const totalKMData = [
     { name: '', value: '1231321' },
-    { name: 'Prezzo per ogni km extra' },
+    { name: 'Prezzo per ogni km extra', value: '1500' },
 ]
 
 export const creditCardData = [
@@ -216,7 +216,7 @@ export const dateKMDeliveryData = [
 export const dateKMReturnData = [
     { title: 'Km alla consegna', value: '1231321', },
     { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
-    { title: 'Km Extra', value: '300', },
+    { title: 'Km Extra', value: '30', },
 
     { amountFoul: '50' },
     { note: '4564fsd45gfsg4d564d56h4f!!!!!!' }
