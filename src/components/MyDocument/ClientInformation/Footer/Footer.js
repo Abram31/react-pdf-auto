@@ -6,7 +6,7 @@ import { clientInformationFooter } from '../../../../constants/constants'
 
 export const Footer = () => {
     return (
-        <View>
+        <View style={styles.wrapper}>
             {clientInformationFooter.map((data, index) => {
                 return <Text style={styles.text} key={index + data[3]}>{data.value}</Text>
             })}

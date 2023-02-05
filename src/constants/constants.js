@@ -35,10 +35,11 @@ export const creditCardData = [
 
 ]
 
+const additionalDamages = '15%'
 export const deductibleChargesData = [
     {
         title: 'Mi impegno a indennizzare FLM Auto & Rent in caso di',
-        value: ['Danni: Fino all importo massimo del deposito cauzionale più il del valore commerciale del veicolo in caso di distruzione totale del veicolo', 'Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale piùil del valore commerciale del veicolo']
+        value: [`Danni: Fino all importo massimo del deposito cauzionale più il ${additionalDamages} del valore commerciale del veicolo in caso di distruzione totale del veicolo`, `Kasko, Furto e incendio: Fino all importo massimo del deposito cauzionale più il ${additionalDamages} del valore commerciale del veicolo`]
     },
     {
         title: 'Dichiaro di essere responsabile di',
@@ -207,9 +208,8 @@ export const nameAutoData = [{
 export const dateKMDeliveryData = [
     { title: 'Km alla consegna', value: '1231321', },
     { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
-    // { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
     { amountFoul: '100' },
-    {note: '4564fsd45gfsg4d564d56h4f'}
+    { note: '4564fsd45gfsg4d564d56h4f' }
 
 ]
 
@@ -219,7 +219,7 @@ export const dateKMReturnData = [
     { title: 'Km Extra', value: '300', },
 
     { amountFoul: '50' },
-    {note: '4564fsd45gfsg4d564d56h4f!!!!!!'}
+    { note: '4564fsd45gfsg4d564d56h4f!!!!!!' }
 
 ]
 
@@ -227,3 +227,9 @@ export const signaturesDeliveryReturnData = [
     { name: 'Luogo:', value: '1231321' },
     { name: 'Nominativo Cliente:', value: '1231321' },
 ]
+
+export const footerData = {
+    title: 'FLM AUTO & RENT S.r.l.', text: `Sede legale: Via Galileo Galilei, 1 - 21052 Busto Arsizio (VA)
+Sede operativa: Via Don Gnocchi, 64 - 21040 Gerenzano(VA)
+Tel. + 39 334 9916128 | +39 02 39309443 - info@flmautorent.com | www.flmautorent.com
+P.IVA 03854220120 | SDI USAL8PV | R.E.A.VA - 383976`}

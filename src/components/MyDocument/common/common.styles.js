@@ -1,6 +1,6 @@
 export const fonts = {
     row: '7',
-    sizeCondition: '6',
+    sizeCondition: '5.5',
     sizeFooter: '7',
     sizeTitle: '14', 
     nameAuto: '16'

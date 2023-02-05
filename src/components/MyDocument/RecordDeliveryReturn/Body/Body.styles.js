@@ -4,7 +4,7 @@ import { gaps, paddings } from '../../common/common.styles';
 
 export const styles = StyleSheet.create({
     body: {
-        padding: `20 ${paddings.page} 10 ${paddings.page}`, display: 'flex',
+        padding: `20 ${paddings.page} 0 ${paddings.page}`, display: 'flex',
         flexDirection: 'column', gap: gaps.body
     }
 });

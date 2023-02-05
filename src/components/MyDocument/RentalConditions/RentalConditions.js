@@ -1,9 +1,10 @@
 import React from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { Page, View } from '@react-pdf/renderer'
 import { styles } from './RentalConditions.style'
 import { Title } from './Title/Title'
 import { TextCondition } from './Text/TextCondition'
 import { Acceptance } from './Acceptance/Acceptance'
+import { Footer } from '../Footer/Footer'
 
 
 export const RentalConditions = () => {
@@ -12,6 +13,9 @@ export const RentalConditions = () => {
             <Title />
             <TextCondition />
             <Acceptance />
+            <View style={styles.wrapper_footer}>
+                <Footer />
+            </View>
         </Page>
     )
 }

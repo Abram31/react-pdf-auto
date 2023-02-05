@@ -1,9 +1,10 @@
 import React from 'react'
-import { Page, Text, View } from '@react-pdf/renderer'
+import { Page } from '@react-pdf/renderer'
 import { styles } from './RecordDeliveryReturn.style'
 import { Header } from '../Header/Header'
 import { NameAuto } from './NameAuto/NameAuto'
 import { Body } from './Body/Body'
+import { Footer } from '../Footer/Footer'
 
 
 export const RecordDeliveryReturn = () => {
@@ -12,6 +13,7 @@ export const RecordDeliveryReturn = () => {
             <Header></Header>
             <NameAuto />
             <Body />
+            <Footer />
         </Page>
     )
 }
