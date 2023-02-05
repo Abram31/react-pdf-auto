@@ -3,9 +3,9 @@ export const firstBlock = [
     { name: 'Colore', value: 'NERO' },
     { name: 'Targa', value: 'JGFDS6567' },
 
-    { name: 'Data e ora Ritiro', value: 'lorem lorem' },
-    { name: 'Data e ora Riconsegna', value: 'lorem lorem' },
-    { name: 'Luogo riconsegna', value: 'lorem lorem lorem ' },
+    { name: 'Data e ora Ritiro', value: 'Anim magna ipsum labore nisi.' },
+    { name: 'Data e ora Riconsegna', value: 'Consectetur adipisicing exercitation officia incididunt' },
+    { name: 'Luogo riconsegna', value: 'Amet mollit laborum ut ut.' },
 ]
 
 export const securityDepositData = [
@@ -23,15 +23,15 @@ export const agreedPriceData = [
 ]
 
 export const totalKMData = [
-    { name: '', value: '1231321' },
+    { name: '', value: 'Adipisicing magna laboris Lorem' },
     { name: 'Prezzo per ogni km extra', value: '1500' },
 ]
 
 export const creditCardData = [
-    { name: 'Nome e Cognome', value: '1231321' },
-    { name: 'Numero', value: '1231321' },
-    { name: 'Scadenza', value: '1231321' },
-    { name: 'Codice', value: '1231321' },
+    { name: 'Nome e Cognome', value: 'Voluptate ullamco occaecat qui labore.' },
+    { name: 'Numero', value: 'Adipisicing ullamco qui incididunt commodo commodo est in do id magna duis cupidatat ea labore.' },
+    { name: 'Scadenza', value: 'veniam enim culpa id ut officia excepteur minim.321' },
+    { name: 'Codice', value: 'Ea culpa proident dolore ipsum veniam.' },
 
 ]
 
@@ -50,15 +50,15 @@ export const deductibleChargesData = [
 
 export const generalCustomerData = {
     firstColumn: [
-        { name: 'Nome e Cognome', value: '1231321' },
-        { name: 'Città e Prov', value: '1231321' },
-        { name: 'Tel', value: '1231321' },
+        { name: 'Nome e Cognome', value: 'Amet magna ad amet ullamco excepteur culpa voluptate et ex.' },
+        { name: 'Città e Prov', value: 'Sint veniam consequat magna reprehenderit velit' },
+        { name: 'Tel', value: 'Lorem veniam reprehenderit aute deserunt veniam consectetur dolor tempor occaecat.' },
     ],
     secondColumn: [
 
-        { name: 'Indirizzo:', value: '1231321' },
-        { name: 'CAP', value: '1231321' },
-        { name: 'email', value: '1231321' },
+        { name: 'Indirizzo:', value: 'Consectetur qui dolor fugiat excepteur ea laborum velit eiusmod adipisicing labore do aute esse.' },
+        { name: 'CAP', value: 'Esse irure consectetur consectetur occaecat.' },
+        { name: 'email', value: 'Aute Lorem anim non cupidatat quis.' },
 
     ]
 
@@ -66,15 +66,15 @@ export const generalCustomerData = {
 
 export const billingData = {
     firstColumn: [
-        { name: 'Indirizzo', value: '1231321' },
-        { name: 'Città e Prov', value: '1231321' },
-        { name: 'CAP', value: '1231321' },
+        { name: 'Indirizzo', value: 'Do esse ea sit mollit cupidatat nulla mollit Lorem mollit id.' },
+        { name: 'Città e Prov', value: 'Officia consequat veniam aute ex Lorem aute veniam.' },
+        { name: 'CAP', value: 'Aliqua laboris voluptate adipisicing duis voluptate.' },
     ],
     secondColumn: [
 
-        { name: 'P.IVA', value: '1231321' },
-        { name: 'Cod. Fisc', value: '1231321' },
-        { name: 'Cod. Dest', value: '1231321' },
+        { name: 'P.IVA', value: 'Anim officia adipisicing officia mollit laborum incididunt.' },
+        { name: 'Cod. Fisc', value: 'Esse sunt aliquip tempor ad reprehenderit aliquip aute est.' },
+        { name: 'Cod. Dest', value: 'Enim excepteur ipsum ipsum anim.' },
 
     ]
 
@@ -82,15 +82,15 @@ export const billingData = {
 
 export const licenseDetails1Data = {
     firstColumn: [
-        { name: 'Nome e Cognome', value: '1231321' },
-        { name: 'N° patente', value: '1231321' },
-        { name: 'Rilasciata da', value: '1231321' },
-        [{ name: 'In data', value: '1231321' }, { name: 'Scadenza', value: '1231321' },]
+        { name: 'Nome e Cognome', value: 'Quis minim nostrud ad aliqua dolore dolore.' },
+        { name: 'N° patente', value: 'Magna irure esse eiusmod ullamco nisi anim eu culpa aliqua commodo.' },
+        { name: 'Rilasciata da', value: 'Deserunt proident ad culpa nisi ut ipsum non occaecat nisi.' },
+        [{ name: 'In data', value: '12341564564' }, { name: 'Scadenza', value: '1231321' },]
     ],
     secondColumn: [
-        { name: 'Nome e Cognome', value: '1231321' },
-        { name: 'N° patente', value: '1231321' },
-        { name: 'Rilasciata da', value: '1231321' },
+        { name: 'Nome e Cognome', value: 'Est quis esse enim cillum velit ad ullamco nulla.' },
+        { name: 'N° patente', value: 'In elit consequat ullamco consectetur incididunt aliquip et officia qui.' },
+        { name: 'Rilasciata da', value: 'Eu aliqua consequat nostrud voluptate aliquip fugiat.' },
         [{ name: 'In data', value: '1231321' }, { name: 'Scadenza', value: '1231321' },]
 
     ]
@@ -209,7 +209,7 @@ export const dateKMDeliveryData = [
     { title: 'Km alla consegna', value: '1231321', },
     { title: 'Data e ora consegna', value: [new Date().toLocaleDateString(), new Date().toLocaleTimeString()], },
     { amountFoul: '100' },
-    { note: '4564fsd45gfsg4d564d56h4f' }
+    { note: 'Tempor dolore exercitation voluptate ut reprehenderit deserunt amet mollit proident aliqua elit labore.' }
 
 ]
 
@@ -219,7 +219,7 @@ export const dateKMReturnData = [
     { title: 'Km Extra', value: '30', },
 
     { amountFoul: '50' },
-    { note: '4564fsd45gfsg4d564d56h4f!!!!!!' }
+    { note: 'Sint nulla laborum irure magna aute.' }
 
 ]
 
